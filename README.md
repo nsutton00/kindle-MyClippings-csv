@@ -1,2 +1,18 @@
 # kindle-MyClippings-csv
 Converts a Kindle My Clippings.txt file to a CSV
+
+## Usage
+Run this script from the command line. Provide the path to your My Clippings.txt file as a positional arguement in quotes.
+
+`python3 kindle_clippings_to_csv.py "/path_to/My Clippings.txt"`
+
+If successful the script will create `KindleHighlights.csv` in the same directory of the script.
+
+## Example Output
+| title                                                                  | author                                                                 | page | text                                                                                                                                                                                                                                                                                                                 |
+| ---------------------------------------------------------------------- | ---------------------------------------------------------------------- | ---- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Sprint: How to Solve Big Problems and Test New Ideas in Just Five Days | Jake Knapp                                                             | 206  | “Would you be willing to look at some prototypes?” By asking for permission, he reinforces the status relationship: The customer is doing him a favor, not the other way around, and it is the prototype that will be tested, not the customer.                                                                      |
+| High Output Management                                                 | S. Andrew Grove                                                        | 13   | A common rule we should always try to heed is to detect and fix any problem in a production process at the lowest-value stage possible. Thus, we should find and reject the rotten egg as it’s being delivered from our supplier rather than permitting the customer to find it.                                     |
+| INSPIRED                                                               | Marty Cagan                                                            | 215  | A concierge test requires going out to the actual users and customers and asking them to show you how they work so that you can learn how to do their job, and so that you can work on providing them a much better solution.                                                                                        |
+| The Attention Merchants                                                | Tim Wu                                                                 | 101  | A continual diet of the purely sensational wears audiences out, makes them seek some repose. The New York Times and The Wall Street Journal, for example, both beat out their rivals in the late nineteenth century not by being more sensational, but less.                                                         |
+| The Rise and Fall of American Growth: 70                               | J. Robert (Gordon World) Western the of History Economic Princeton The | 132  | A core theme of this book is that many of the great inventions could happen only once. In the seven decades between 1870 and 1940, the urban dwelling was utterly transformed from a primitive state hard to imagine (as described in chapter 2) to a level, in 1940, surprisingly similar to the way we live today. |
